@@ -2,6 +2,9 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
+local discipline = require("acvdoandrew.discipline")
+discipline.cowboy()
+
 local map = vim.keymap.set
 
 -- vim-tmux-navigator
